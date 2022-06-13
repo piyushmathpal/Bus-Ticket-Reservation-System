@@ -1,0 +1,9 @@
+{% extends 'myapp/base.html' %}
+{%load static %} 
+{% block content %}
+<center ><h1 style="color:white;font-weight :700 ;"><br><br><br><br>Welcome to <br>Trippy Travels</h1>
+<br><br><br><h2 style="color:white;">Travel Safe With Us </h2><br><br>
+<a href="{% url 'findbus' %}" class="button" style="color:white;padding:15px;border-radius:5px"> Book Your Ticket Now</a> </center>
+
+
+{% endblock %}
